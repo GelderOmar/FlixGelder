@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './VideoCard.css'; // Asegúrate de que este archivo CSS esté en el lugar correcto
+import './VideoCard.css'; 
 
 const VideoCard = ({ video }) => {
   const [isEditing, setIsEditing] = useState(false);
